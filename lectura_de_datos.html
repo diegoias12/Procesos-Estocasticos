@@ -3,6 +3,10 @@
 <head>
   <title>Hola mundo</title>
   <link rel="stylesheet" type="text/css" href="CSS/Lectura.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/Estructura.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Encabezado.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Menu.css">
+  <link rel="stylesheet" type="text/css" href="CSS/Impresiones.css">
   <script type="text/javascript" src="JavaScript/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="JavaScript/CrearTabla.js"></script>
   <script type="text/javascript" src="JavaScript/Impresion.js"></script>
@@ -15,40 +19,63 @@
   <script type="text/javascript" src="JavaScript/Metodos/Descuento/Descuento.js"></script>
 </head>
 <body>
-  <table>
-    <tr>
-      <td>
-        <p>Estados:</p>
-      </td>
-      <td>
-        <p>Decisiones:</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <input type="number" min="1" max="7" value="3" name="n">
-      </td>
-      <td>
-        <input type="number" min="1" max="7" value="3" name="m">
-      </td>
-    </tr>
-  </table>
 
-  <div name="TablasProbabilidadesCostos">
-  </div>
+  <header class="flex-container">
+      <img id="encabezado" src="img/fes l.png">
+      <h1 id="titulo">
+        Procesos Estocásticos
+      </h1>
+      <img id="encabezado" src="img/mac logo.png">
+  </header>
 
-  <select name="metodo">
-    <option>Exhaustivas</option>
-    <option>Mejoramiento</option>
-    <option>Descuentos</option>
-  </select>
+  <nav>
+      <div class="equipo">
+          <b>Integrantes:</b>
+          <a>Alcantara Salvitano Diego Israel</a>
+          <a>Celis Vargas Isaac</a>
+          <a>Oaxaca Zepeda Karla Veronica</a>
+          <a>Rendón Sanchez Isaac</a>
+       </div>
+  </nav>
 
-  <div name="primerPolitica">
-  </div>
+  <section>
+    <p id="vlv">Métodos</p>
+    <table>
+      <tr>
+        <td>
+          <p>Estados:</p>
+        </td>
+        <td>
+          <p>Decisiones:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="number" min="1" max="7" value="3" name="n">
+        </td>
+        <td>
+          <input type="number" min="1" max="7" value="3" name="m">
+        </td>
+      </tr>
+      <select name="metodo">
+        <option>Exhaustivas</option>
+        <option>Mejoramiento</option>
+        <option>Descuentos</option>
+      </select>
+      <button name="SeleccionarMetodo">Resolver</button>
+    </table>
+    <div id="lecturapolitica" name="primerPolitica">
+    </div>
+  </section>
 
-  <button name="SeleccionarMetodo">Resolver</button>
+  <aside>
+    <div name="TablasProbabilidadesCostos">
+    </div>
+</aside>
 
+<footer>
   <div name="procedimiento">
   </div>
+</footer>
 </body>
 </html>

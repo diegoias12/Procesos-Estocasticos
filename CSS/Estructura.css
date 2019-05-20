@@ -1,0 +1,59 @@
+body
+{
+  display: grid;
+  grid-template-columns: 250px 1100px;
+  grid-template-rows: 150px 60px auto auto;
+  grid-template-areas: "hd hd"
+                       "nv nv"
+                       "mn as"
+                       "ft ft";
+  background-color:rgb(0,61,121);
+
+}
+header
+{
+    grid-area: hd;
+    border: 6px ridge gray;
+    text-align: center;
+    color: white;
+    background-color: rgb(213,159,15);
+}
+nav
+{
+  grid-area: nv;
+  border: 8px ridge gray;
+}
+section
+{
+    grid-area: mn;
+    border: 8px ridge gray;
+    background-color: rgb(213,159,15);
+}
+section:hover
+{
+  grid-area: mn;
+  border: 8px ridge gray;
+  background-color:rgb(0,61,121);
+  color: white;
+}
+aside
+{
+  grid-area: as;
+  border: 8px ridge gray;
+  background-color: rgb(213,159,15);
+}
+aside:hover
+{
+  grid-area: as;
+  border: 8px ridge gray;
+  background-color:rgb(0,61,121);
+  color: white;
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+  grid-area: ft;
+  border: 8px ridge gray;
+  background-color: rgb(213,159,15);
+}

@@ -1,11 +1,33 @@
-table, tr, td
+td
 {
-    border: 1px solid black;
+    border: 2px double black;
+    width: 400px;
+    text-align: center;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#vlv
+{
+  background-color: skyblue;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+}
+tbody
+{
+  width: 400px;
 }
 
-body
+table
 {
-  background: rgb(100, 100, 100);
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 td.valor
@@ -13,6 +35,15 @@ td.valor
   background: rgb(200, 300, 200);
 }
 
-input {
+input
+{
   width: 50px;
+  font-size: 15px;
+}
+#lecturapolitica
+{
+  display: flex;
+  justify-content: center;
+  width: 248px;
+
 }
