@@ -1,0 +1,134 @@
+#formula
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 348px;
+}
+#todaslaspoliticas
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#tabladeprobabilidadesycostos
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+table.politicas
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*height: auto;
+  width: auto;
+  text-align: center;*/
+}
+table.politicas tr:hover
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  color:black;
+}
+#resultado
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 8px groove gray;
+    padding: 5px;
+    background-color: rgb(213,159,15);;
+    width: 800px;
+    height: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+}
+#resultado:hover
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 8px groove gray;
+  padding: 5px;
+  background-color:rgb(0,61,121);
+  width: 800px;
+  height: 100px;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+  color: white;
+}
+#iteracion
+{
+  text-align: center;
+  border: 8px groove gray;
+  padding: 5px;
+  background-color:rgb(0,61,121);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 800px;
+  height: 75px;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#resultadodesc
+{
+  text-align: center;
+  border: 8px groove gray;
+  padding: 5px;
+  background-color:rgb(0,61,121);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 800px;
+  height: 75px;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#resultadodesc:hover
+{
+  text-align: center;
+  border: 8px groove gray;
+  padding: 5px;
+  background-color: rgb(213,159,15);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 800px;
+  height: 75px;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+  color:black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
